@@ -69,10 +69,7 @@ header p {
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
-.card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-}
+
 
 .gratitude { background: #d7e4d2; }
 .reflection { background: #e4ddd4; }
