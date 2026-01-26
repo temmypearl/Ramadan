@@ -2,32 +2,32 @@ const prompts = {
   Gratitude: {
     number: 1,
     text: "Name 3 blessings you are thankful for today.",
-    // audio: "audio/happy-birthday-334876.mp3",
+    audio: "audio/Gratitude.mp4",
   },
   Reflection: {
     number: 2,
     text: "What did today teach you about patience or faith?",
-    // audio: "audio/happy-birthday-334876.mp3",
+    audio: "audio/Reflection.mp4",
   },
   Kindness: {
     number: 3,
     text: "Do one quiet act of kindness for someone today.",
-    // audio: "audio/happy-birthday-334876.mp3",
+    audio: "audio/Kindness.mp4",
   },
   Action: {
     number: 4,
     text: "Take one small action toward a goal you've been delaying.",
-    // audio: "audio/happy-birthday-334876.mp3",
+    audio: "audio/Action.mp4",
   },
   Forgiveness: {
     number: 5,
     text: "Who do you need to forgive — including yourself?",
-    // audio: "audio/happy-birthday-334876.mp3",
+    audio: "audio/Stillness.mp4",
   },
   "Focus / Reset": {
     number: 6,
     text: "Release one distraction and refocus your intention.",
-    // audio: "audio/happy-birthday-334876.mp3",
+    audio: "audio/Focus.mp4",
   },
 };
 
@@ -44,7 +44,6 @@ document.querySelectorAll(".card").forEach((card) => {
     const type = card.dataset.type;
     const data = prompts[type];
 
-    // Preserve span + update title
     title.innerHTML = `<span>${data.number}</span> ${type}`;
     text.textContent = data.text;
 
@@ -69,7 +68,7 @@ playBtn.addEventListener("click", () => {
   isPlaying = !isPlaying;
 });
 
-// Reset when audio ends
+// When audio ends
 audio.addEventListener("ended", () => {
   playBtn.textContent = "▶";
   isPlaying = false;
