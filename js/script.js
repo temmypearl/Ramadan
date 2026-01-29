@@ -19,7 +19,7 @@ const prompts = {
     text: "Take one small action toward a goal you've been delaying.",
     audio: "audio/Action.mp4",
   },
-  Forgiveness: {
+  Stillness: {
     number: 5,
     text: "Who do you need to forgive — including yourself?",
     audio: "audio/Stillness.mp4",
