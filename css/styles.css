@@ -71,12 +71,12 @@ header p {
 
 
 
-.gratitude { background: #d7e4d2; }
-.reflection { background: #e4ddd4; }
-.kindness { background: #efd3c2; }
-.action { background: #f0dfb9; }
-.forgiveness { background: #dbe7da; }
-.focus { background: #e0d9f0; }
+.gratitude { background: #00825a; }
+.reflection { background: #2857f4; }
+.kindness { background: #e9ac2e; }
+.action { background: #d40274; }
+.forgiveness { background: #e01d27; }
+.focus { background: #ffeef1; }
 
 .prompt {
   margin-top: auto;
